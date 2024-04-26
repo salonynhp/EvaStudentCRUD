@@ -1,0 +1,11 @@
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\bin\Debug\net8.0\Student.ViewModels.deps.json
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\bin\Debug\net8.0\Student.ViewModels.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\bin\Debug\net8.0\Student.ViewModels.pdb
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\Student.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\Student.ViewModels.AssemblyInfoInputs.cache
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\Student.ViewModels.AssemblyInfo.cs
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\Student.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\Student.ViewModels.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\refint\Student.ViewModels.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\Student.ViewModels.pdb
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\ref\Student.ViewModels.dll

@@ -1,0 +1,17 @@
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\bin\Debug\net8.0\Student.Entity.deps.json
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\bin\Debug\net8.0\Student.Entity.runtimeconfig.json
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\bin\Debug\net8.0\Student.Entity.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\bin\Debug\net8.0\Student.Entity.pdb
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\obj\Debug\net8.0\Student.Entity.csproj.AssemblyReference.cache
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\obj\Debug\net8.0\Student.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\obj\Debug\net8.0\Student.Entity.AssemblyInfoInputs.cache
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\obj\Debug\net8.0\Student.Entity.AssemblyInfo.cs
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\obj\Debug\net8.0\Student.Entity.csproj.CoreCompileInputs.cache
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\obj\Debug\net8.0\Student.Entity.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\obj\Debug\net8.0\refint\Student.Entity.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\obj\Debug\net8.0\Student.Entity.pdb
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\obj\Debug\net8.0\Student.Entity.genruntimeconfig.cache
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\obj\Debug\net8.0\ref\Student.Entity.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\bin\Debug\net8.0\Student.ViewModels.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\bin\Debug\net8.0\Student.ViewModels.pdb
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Entity\obj\Debug\net8.0\Student..35E88157.Up2Date
