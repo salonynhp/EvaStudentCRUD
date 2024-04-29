@@ -16,7 +16,7 @@ var builder = WebApplication.CreateBuilder(args); //services are added to DI con
 var configuration = builder.Configuration; //Added to get Configuration from appsettings.json
 
 // Add services to the container.
-//builder.Services.AddScoped<DbContext, StudentCrudContext>();
+builder.Services.AddScoped<DbContext, StudentCrudContext>();
 builder.Services.AddScoped<IStudentBusiness, StudentBusiness>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 
