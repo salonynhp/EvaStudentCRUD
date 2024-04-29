@@ -1,4 +1,5 @@
 ﻿using Student.Entity.Models;
+using Student.ViewModels.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +10,19 @@ namespace Student.Business.Contract
 {
     public interface IStudentBusiness
     {
+        
+        //GET, R
         Task<List<Studentdetail>> GetList();
-        Task<Studentdetail> GetById(Guid id);
+        Task<List<Studentdetail>> GetMarks();
+        //GET ID, R
+        Task<Studentdetail> GetStudentById(Guid? ID);
+        //PUT, C
+        Task AddStu(StudentView payload);
+        //POST, U
+        Task UpdateById(StudentView payloadstudent);
+        //DELETE, D
+        Task DeleteById(Guid id);
 
-        Task<List<Studentdetail>> Add();
 
-        Task<Studentdetail> UpdateById(Guid id);
-
-        Task<Studentdetail> DeleteById(Guid id);
     }
 }

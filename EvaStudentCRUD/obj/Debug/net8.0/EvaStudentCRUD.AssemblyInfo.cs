@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EvaStudentCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80d696519a059fc423bd8904aeaa08aa97d1c179")]
 [assembly: System.Reflection.AssemblyProductAttribute("EvaStudentCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EvaStudentCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

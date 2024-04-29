@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "of2AX9bgzaFwP1UQk3e/c2oHgEMp9O4WSOUL6i7J5ww3d8Z3BIPc+GZsQLt/MFCBlV37hN0IvQmUMmZ6ku92CQ==",
+  "dgSpecHash": "yXM2n6j1vyTgiaHvCORHtR/YXSQ9SRfUr0S6mlmfATqGwK9WpLN9RUmkuIY10N2eDVKj2Ato1OL2+tGOf4R+Yg==",
   "success": true,
   "projectFilePath": "C:\\Users\\salon\\source\\Eva\\EvaStudentCRUD\\Student.ViewModels\\Student.ViewModels.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\salon\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.4\\microsoft.aspnetcore.jsonpatch.8.0.4.nupkg.sha512",
+    "C:\\Users\\salon\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.4\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.4.nupkg.sha512",
+    "C:\\Users\\salon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\salon\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\salon\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

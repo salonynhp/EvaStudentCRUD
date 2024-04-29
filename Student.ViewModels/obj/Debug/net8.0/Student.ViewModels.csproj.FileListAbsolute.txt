@@ -9,3 +9,5 @@ C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\Stu
 C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\refint\Student.ViewModels.dll
 C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\Student.ViewModels.pdb
 C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\ref\Student.ViewModels.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\Student.ViewModels.sourcelink.json
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.ViewModels\obj\Debug\net8.0\Student.ViewModels.csproj.AssemblyReference.cache

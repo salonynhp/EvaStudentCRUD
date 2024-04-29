@@ -143,3 +143,9 @@ C:\Users\salon\source\Eva\EvaStudentCRUD\EvaStudentCRUD\bin\Debug\net8.0\Student
 C:\Users\salon\source\Eva\EvaStudentCRUD\EvaStudentCRUD\bin\Debug\net8.0\Student.Entity.pdb
 C:\Users\salon\source\Eva\EvaStudentCRUD\EvaStudentCRUD\bin\Debug\net8.0\Student.Repository.pdb
 C:\Users\salon\source\Eva\EvaStudentCRUD\EvaStudentCRUD\bin\Debug\net8.0\Student.ViewModels.pdb
+C:\Users\salon\source\Eva\EvaStudentCRUD\EvaStudentCRUD\obj\Debug\net8.0\EvaStudentCRUD.sourcelink.json
+C:\Users\salon\source\Eva\EvaStudentCRUD\EvaStudentCRUD\bin\Debug\net8.0\AutoMapper.Extensions.ExpressionMapping.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\EvaStudentCRUD\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\EvaStudentCRUD\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\EvaStudentCRUD\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\salon\source\Eva\EvaStudentCRUD\EvaStudentCRUD\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

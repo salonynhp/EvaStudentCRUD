@@ -17,3 +17,4 @@ C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Repository\bin\Debug\net8.0\Stu
 C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Repository\bin\Debug\net8.0\Student.Entity.pdb
 C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Repository\bin\Debug\net8.0\Student.ViewModels.pdb
 C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Repository\obj\Debug\net8.0\Student..6F35DB41.Up2Date
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Repository\obj\Debug\net8.0\Student.Repository.sourcelink.json

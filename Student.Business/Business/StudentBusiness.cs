@@ -8,47 +8,79 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Student.Repository.Repository;
-
+using Student.ViewModels.ViewModels;
+using Microsoft.EntityFrameworkCore;
 
 public class StudentBusiness : IStudentBusiness
 {
-
+    //Repository Injected to Business
     private readonly IStudentRepository _studentRepository;
     private readonly IMapper _mapper;
-    public StudentBusiness(IStudentRepository employeeRepository, IMapper mapper)
+    public StudentBusiness(IStudentRepository studentRepository, IMapper mapper)
     {
-        _studentRepository = employeeRepository;
+        _studentRepository = studentRepository;
         _mapper = mapper;
     }
 
-    Task<List<Studentdetail>> IStudentBusiness.Add()
-    {
+   //==================================================
 
-        throw new NotImplementedException();
+  
+
+     public async Task<List<Studentdetail>> GetList()
+    {
+        List<Studentdetail> studentlist = new();
+
+        studentlist = await _studentRepository.GetList();
+
+        studentlist = _mapper.Map<List<Studentdetail>>(studentlist);
+        return studentlist;
     }
 
-    Task<Studentdetail> IStudentBusiness.DeleteById(Guid id)
+    public async Task<List<Studentdetail>> GetMarks()
     {
-        throw new NotImplementedException();
+        List<Studentdetail> studentMarkData = new();
+
+        studentMarkData = await _studentRepository.GetMarks();
+        studentMarkData= _mapper.Map<List<Studentdetail>>(studentMarkData); 
+        return studentMarkData;
     }
 
-    Task<Studentdetail> IStudentBusiness.GetById(Guid id)
+    
+    
+    public async Task<Studentdetail> GetStudentById(Guid? ID)
     {
-        throw new NotImplementedException();
+        Studentdetail studentData = new();
+
+        var result = await _studentRepository.GetStudentById(ID);
+
+        studentData = _mapper.Map<Studentdetail>(result);
+
+     
+        return studentData;
+        
     }
 
-    Task<List<Studentdetail>> IStudentBusiness.GetList()
+    public async Task AddStu(StudentView payloadstudent)
     {
-        List<EmployeModel> employeeList = new();
-
-        var result = await _employeeRepository.GetList();
-
-        employeeList = _mapper.Map<List<EmployeModel>>(result);
-        return employeeList;
+        
+        await _studentRepository.AddStu(payloadstudent);
+       
     }
 
-    Task<Studentdetail> IStudentBusiness.UpdateById(Guid id)
+
+
+    public async Task UpdateById(StudentView payloadstudent)
     {
-        throw new NotImplementedException();
+        await _studentRepository.UpdateById(payloadstudent);
     }
+
+
+
+    public async Task DeleteById(Guid id)
+    {   //Studentdetail studentdelete = new();
+        await _studentRepository.DeleteById(id);
+        return;
+    }
+
+    
 }

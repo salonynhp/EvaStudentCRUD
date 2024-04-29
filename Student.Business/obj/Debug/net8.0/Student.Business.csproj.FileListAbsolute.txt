@@ -17,3 +17,4 @@ C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Business\bin\Debug\net8.0\Stude
 C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Business\bin\Debug\net8.0\Student.Repository.pdb
 C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Business\bin\Debug\net8.0\Student.ViewModels.pdb
 C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Business\obj\Debug\net8.0\Student..9ECBB527.Up2Date
+C:\Users\salon\source\Eva\EvaStudentCRUD\Student.Business\obj\Debug\net8.0\Student.Business.sourcelink.json
