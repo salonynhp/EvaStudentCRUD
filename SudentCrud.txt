@@ -1,0 +1,103 @@
+
+CREATE TABLE [dbo].[studentdetails](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[StudentId] [uniqueidentifier] NOT NULL,
+	[Name] [nvarchar](150) NOT NULL,
+	[Gender] [tinyint] NULL,
+	[Dob] [date] NULL,
+	--[Designation] [nvarchar](50) NULL,
+ CONSTRAINT [PK_tudentdetails] PRIMARY KEY CLUSTERED 
+(
+[StudentId] ASC
+)
+WITH (
+PAD_INDEX = OFF,
+STATISTICS_NORECOMPUTE = OFF, 
+IGNORE_DUP_KEY = OFF, 
+ALLOW_ROW_LOCKS = ON, 
+ALLOW_PAGE_LOCKS = ON, 
+OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+)
+ 
+ON [PRIMARY]
+GO
+---------------------------------
+
+ALTER TABLE [dbo].[studentdetails] 
+ADD  CONSTRAINT 
+[DF_studentdetails_StudentId]  DEFAULT 
+(newsequentialid()) FOR [StudentId]
+GO
+---------------------------------
+
+--------------------------
+
+CREATE TABLE [dbo].[markdetails](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[SubjectId] [uniqueidentifier] NOT NULL,
+	[StudentId] [uniqueidentifier] NOT NULL,
+	[TotalMarks] [int] NULL,
+	[MarksObtained] [int] NULL,
+	[Grade] [varchar],
+ CONSTRAINT [PK_AddressMaster] PRIMARY KEY CLUSTERED 
+(
+	
+	[SubjectId] ASC
+)WITH (
+PAD_INDEX = OFF, 
+STATISTICS_NORECOMPUTE = OFF, 
+IGNORE_DUP_KEY = OFF, 
+ALLOW_ROW_LOCKS = ON, 
+ALLOW_PAGE_LOCKS = ON, 
+OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) 
+
+ON [PRIMARY]
+GO
+---------------------------
+ALTER TABLE [dbo].[markdetails] 
+ADD  CONSTRAINT 
+[DF_markdetails_SubjectId]  DEFAULT 
+(newsequentialid()) FOR [SubjectId]
+GO
+--------------------------
+ALTER TABLE [dbo].[markdetails]  WITH CHECK ADD  CONSTRAINT [FK_markdetails_studentdetails] FOREIGN KEY([StudentId]) 
+REFERENCES [dbo].[studentdetails] ([StudentId])
+ON DELETE CASCADE
+GO
+-------------
+ALTER TABLE [dbo].[markdetails] CHECK CONSTRAINT [FK_markdetails_studentdetails]
+GO
+
+*****************************************
+studentdetails
+*****************************************
+
+1	9DD060A6-9703-EF11-9CB1-B7C9A2CBAA3C	Rahul Sharma	1	1998-03-12
+2	9ED060A6-9703-EF11-9CB1-B7C9A2CBAA3C	Priya Desai	2	2000-09-25
+3	9FD060A6-9703-EF11-9CB1-B7C9A2CBAA3C	Arjun Singh	1	1999-06-18
+4	A0D060A6-9703-EF11-9CB1-B7C9A2CBAA3C	Isha Gupta	2	1997-11-02
+5	A1D060A6-9703-EF11-9CB1-B7C9A2CBAA3C	Rohan Patel	1	2001-01-28
+**********************************************
+markdetails
+***********************************************
+3	0F0DBF63-9803-EF11-9CB1-B7C9A2CBAA3C	9DD060A6-9703-EF11-9CB1-B7C9A2CBAA3C	100	92	A
+4	100DBF63-9803-EF11-9CB1-B7C9A2CBAA3C	9ED060A6-9703-EF11-9CB1-B7C9A2CBAA3C	100	85	A
+5	110DBF63-9803-EF11-9CB1-B7C9A2CBAA3C	9FD060A6-9703-EF11-9CB1-B7C9A2CBAA3C	100	78	B
+6	120DBF63-9803-EF11-9CB1-B7C9A2CBAA3C	A0D060A6-9703-EF11-9CB1-B7C9A2CBAA3C	100	90	A
+7	130DBF63-9803-EF11-9CB1-B7C9A2CBAA3C	A1D060A6-9703-EF11-9CB1-B7C9A2CBAA3C	100	72	C
+*********************************************
+********************************************
+scaffold-DbContext "Server=SALONY;Initial Catalog=studentCRUD; User Id=sa; password=root;Persist Security Info=False;Integrated Security=false;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -Tables studentdetails, markdetails -f -Project "Student.Entity" -OutputDir Models
+Build started...
+Build succeeded.
+
+
+
+"ConnectionStrings": {
+  "TestDbConnectionString": "Server=SALONY;Initial Catalog=studentCRUD;User Id=sa; password=root;Persist Security Info=False;Integrated Security=false;TrustServerCertificate=True;"
+},
+
+
+
+
